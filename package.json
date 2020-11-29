@@ -1,0 +1,17 @@
+{
+  "name": "tindog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "set NODE_ENV=production&& tailwind build src/styles.css -o dist/styles.css -c tailwind.config.js"
+  },
+  "keywords": [],
+  "author": "Piyush",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.0.4",
+    "postcss": "^8.1.10",
+    "tailwindcss": "^2.0.1"
+  }
+}
